@@ -1,6 +1,9 @@
 {
     "name": "setov/hexlet-code",
-    "bin": ["bin/brain-games"],
+    "bin": [
+        "bin/brain-games",
+        "bin/brain-even"
+    ],
     "description": "Hexlet project brain games",
     "type": "library",
     "require-dev": {
@@ -9,7 +12,8 @@
     "license": "MIT",
     "autoload": {
         "files": [
-            "src/Cli.php"
+            "src/Cli.php",
+            "src/BrainEven.php"
         ]
     },
     "authors": [
