@@ -4,7 +4,8 @@
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-clac",
-        "bin/brain-gcd"
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "description": "Hexlet project brain games",
     "type": "library",
@@ -19,6 +20,7 @@
             "src/Games/BrainEven.php",
             "src/Games/Calc.php",
             "src/Games/Gcd.php",
+            "src/Games/BrainProgression.php",
             "src/Engine.php"
         ]
     },
