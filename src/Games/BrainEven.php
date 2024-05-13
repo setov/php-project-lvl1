@@ -4,7 +4,7 @@ namespace Brain\Games\Games\BrainEven;
 
 use function Brain\Games\Engine\run;
 
-const DESCRIPTION = "Answer \"yes\" if number even otherwise answer \"no\".";
+const DESCRIPTION = "Answer \"yes\" if the number is even, otherwise answer \"no\".";
 const MIN = 1;
 const MAX = 100;
 
