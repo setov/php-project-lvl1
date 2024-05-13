@@ -22,12 +22,12 @@ function run(string $description, callable $questionAnswerData): void
         line("Question: %s", $currentQuestion);
         $playerAnswer = prompt('Your answer');
         if ($playerAnswer === $correctAnswer) {
-            line("%gCorrect!%n");
+            line("Correct!");
         } else {
-            line("%s %ris wrong answer%n ;(. Correct answer was %g%s%n", $playerAnswer, $correctAnswer);
+            line("%s is wrong answer ;(. Correct answer was %s", $playerAnswer, $correctAnswer);
             line("Let's try again, %s", $name);
             return;
         }
     }
-        line("%bCongratulations, %s!%n", $name);
+        line("Congratulations, %s!", $name);
 }
