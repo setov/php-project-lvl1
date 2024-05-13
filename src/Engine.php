@@ -11,7 +11,6 @@ const ROUNDS_COUNT = 3;
 
 function run(string $description, callable $questionAnswerData): void
 {
-    line($description);
     line("Welcome to Brain Games!");
     $name = prompt('May I have your name?', 'Friend');
     line("Hello, %s!", $name);
