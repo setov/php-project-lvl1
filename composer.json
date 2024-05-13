@@ -2,18 +2,22 @@
     "name": "setov/hexlet-code",
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-clac"
     ],
     "description": "Hexlet project brain games",
     "type": "library",
     "require-dev": {
-        "squizlabs/php_codesniffer": "^3.9"
+        "squizlabs/php_codesniffer": "^3.9",
+        "phpstan/phpstan": "^1.10"
     },
     "license": "MIT",
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/BrainEven.php"
+            "src/Games/BrainEven.php",
+            "src/Games/Calc.php",
+            "src/Engine.php"
         ]
     },
     "authors": [
